@@ -1,0 +1,473 @@
+    1  passwd root 
+    2  passwd root
+    3  sudo passwd root
+    4  su
+    5  su root
+    6  close
+    7  cd
+    8  ls
+    9  uname -a
+   10  cd ~
+   11  ls -l
+   12  cp The_Holy_Bible.txt /home/cqh
+   13  ls -l
+   14  cd /home/cqh
+   15  ls
+   16  ls -l
+   17  cd ~
+   18  exit
+   19  ls
+   20  cd ~
+   21  ls
+   22  ls -l
+   23  ls
+   24  ls -l
+   25  mkdir 1234
+   26  ls -s
+   27  ls -l
+   28  rmdir 1234
+   29  ls -l
+   30  mkdir 1234
+   31  ls
+   32  cp examples.desktop 1234
+   33  cd 1234
+   34  ls
+   35  cd ~`
+   36  cd ~
+   37  ls
+   38  rmdir 1234
+   39  cp hello The_Holy_Bible.txtThe_Holy_Bible.txt 1234
+   40  cd 1234
+   41  ls
+   42  ls -l
+   43  rm examples.desktopexamples.desktop
+   44  ls -l
+   45  rm examples.desktop
+   46  ls -l
+   47  rm hello
+   48  ls -l
+   49  cd ~
+   50  ls
+   51  cp examples.desktop hello 1234
+   52  cd 1234
+   53  ls
+   54  cd ~
+   55  ls
+   56  rm 1234
+   57  cp -f hello 1234/hello1
+   58  ls
+   59  cd 1234
+   60  ls
+   61  cp hello 1234/hello4
+   62  cp -f hello 1234/hello4
+   63  ls
+   64  ~
+   65  cd ~
+   66  cp -f hello 1234/hello4
+   67  cd 1234
+   68  ls
+   69  cd ~
+   70  ls
+   71  mkdir 12345
+   72  ls
+   73  cp 1234 12345
+   74  ls
+   75  cd 12345
+   76  ls
+   77  cd ~
+   78  cp -r 1234 12345
+   79  cd 12345
+   80  ls
+   81  cd 1234
+   82  ls
+   83  cd ~
+   84  cd 12345/1234
+   85  ls
+   86  cd ~
+   87  ls
+   88  mv 1234 1234567
+   89  ls
+   90  cp 123456 1234
+   91  ls
+   92  cp 123456 ubuntu
+   93  cp -f 1234567 1234
+   94  cp -r 1234567 1234
+   95  ls
+   96  cp hello hello1
+   97  ls
+   98  rm 1234
+   99  rm -r 1234
+  100  ls
+  101  cp -r 1234567 1234
+  102  ls
+  103  rm 1234 12345
+  104  cp 1234 12345
+  105  cd 12345
+  106  ls
+  107  rm -r 1234
+  108  ls
+  109  cd ~
+  110  cp 1234 12345
+  111  cd 12345
+  112  ls
+  113  cd ~
+  114  cp -r 1234 12345
+  115  cd 12345
+  116  ls
+  117  cd ~
+  118  ls
+  119  cat hello
+  120  cat -b hello
+  121  cat -e
+  122  cat -E
+  123  cat -e hello
+  124  cat -be hello
+  125  ls
+  126  touch b.txt
+  127  ls
+  128  head -10 The_Holy_Bible.txt
+  129  head -10 The_Holy_Bible.txtThe_Holy_Bible.txt >bba.txt
+  130  ls
+  131  eat bba.txt
+  132  ls
+  133  cat bba.txt
+  134  vim bba.txt
+  135  tail -10 The_Holy_Bible.txt
+  136  ls
+  137  ls |cat >aa
+  138  ls
+  139  cat aa
+  140  ls -l'cat aa'
+  141  ls -|'cat aa'
+  142  ls -|$(cat aa)
+  143  umask
+  144  umask 0001
+  145  umask
+  146  umask 002
+  147  umask
+  148  ls -l
+  149  chmod 666 hello
+  150  ls -l
+  151  chmod 664 hello
+  152  ls -l
+  153  su
+  154  su
+  155  passwd ubuntu
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd cqh
+  160  ls -l
+  161  ls -al
+  162  cd ..
+  163  ls
+  164  ls -al
+  165  ls -a /root/home
+  166  su
+  167  su
+  168  cd ~
+  169  cd pwd
+  170  cd home
+  171  cd ..
+  172  ls
+  173  cd /ubuntu
+  174  ls
+  175  cd ubuntu
+  176  ls
+  177  cd ..
+  178  ls
+  179  ls -a
+  180  cd ubuntu
+  181  ls
+  182  ls -a
+  183  cat /etc/passwd
+  184  pwd
+  185  vim txt
+  186  Q
+  187  vim txt
+  188  ls
+  189  ls -l
+  190  head -10 The_Holy_Bible.txt
+  191  cat examples.desktop
+  192  echo hillo
+  193  echo hello
+  194  echo "hello""
+  195  hello
+  196  q
+  197  wq
+  198  ls
+  199  echo "hello"
+  200  ls -l
+  201  file examples.desktop
+  202  file The_Holy_Bible.txt
+  203  cls
+  204  clc
+  205  slc
+  206  clc
+  207  clear
+  208  ls
+  209  vim hello
+  210  ls
+  211  ls -l
+  212  ps hello
+  213  cat hello
+  214  ls
+  215  cd .
+  216  cd ..
+  217  ls
+  218  clear
+  219  date
+  220  su
+  221  history
+  222  vim pthread_create_p.c
+  223  gcc pthread_create_p.c -1pthread
+  224  gcc pthread_create_p.c 1pthread
+  225  gcc pthread_create_p.c 1234
+  226  ls
+  227  cat pthread_create_p.c
+  228  ls -l
+  229  mkdir pthread_join
+  230  ls -l
+  231  mv -r pthread_join pthread
+  232  ls -l
+  233  mv -f pthread_join pthread
+  234  ls -l
+  235  cp pthread pthread_join
+  236  cp -f pthread pthread_join
+  237  cp -r pthread pthread-join
+  238  ls -l
+  239  vim pthread_create_p.c
+  240  cat pthread_create_p.c
+  241  gcc pthread_create_p.c
+  242  ls -l
+  243  ./a.out
+  244  ./a.out >a.txt
+  245  ls -l
+  246  cat a.txt
+  247  vim a.txt
+  248  mkdir 1pthread
+  249  ls -l
+  250  gcc pthread_create_p.c -ipthread
+  251  gcc pthread_create_p.c -1pthread
+  252  gcc pthread_create_p.c 1pthread
+  253  gcc pthread_create_p.c /home/home/ubuntu/1pthread
+  254  pwd
+  255  cp pthread_join.c pthread_join_int.c
+  256  ls -l
+  257  cp pthread_create_p.c pthread_create.c
+  258  ls -l
+  259  ./a.out
+  260  make clean
+  261  make
+  262  man make
+  263  which main
+  264  which cd
+  265  pwd
+  266  cat pthread_create.c
+  267  vim pthread_create.c
+  268  chown pthread_create.c
+  269  su
+  270  cd ~
+  271  ls -l
+  272  gcc 同桌桌收.c 
+  273  vim 同桌桌收.c 
+  274  gcc  void main()
+  275  vim 同桌桌收.c 
+  276  gcc  void main()
+  277  vim 同桌桌收.c 
+  278  gcc 同桌桌收.c 
+  279  ./a.out
+  280  ls -l
+  281  ls -la
+  282  vim hello.c 
+  283  cat hello.c 
+  284  cat The_Holy_Bible.txt >the_holy_bible.txt
+  285  ls -l
+  286  vim the_holy_bible.txt 
+  287  cat -10 The_Holy_Bible.txt 
+  288  head -10
+  289  head -10 The_Holy_Bible.txt 
+  290  head -10 the_holy_bible.txt 
+  291  vim the_holy_bible.txt 
+  292  cd ~
+  293  vim .bashrc
+  294  ls
+  295  vim .bashrc
+  296  cd /
+  297  cd /home/
+  298  cd ~
+  299  cd 1234
+  300  cd ~
+  301  ls -l
+  302  vim the_holy_bible.txt 
+  303  . .bashrc
+  304  vim the_holy_bible.txt 
+  305  vim /printf
+  306  vim /printf the_holy_bible.txt 
+  307  ps -elf|grep vim
+  308  vim /god the_holy_bible.txt 
+  309  vim +/printf the_holy_bible.txt 
+  310  vim +/god the_holy_bible.txt 
+  311  vim the_holy_bible.txt 
+  312  cd .
+  313  pwd
+  314  vim .vimrc
+  315  pwd
+  316  ls -l
+  317  tar hello
+  318  find -name hello -a -type -
+  319  find -name hello
+  320  find -name -a -type -f
+  321  find -name -a -type f
+  322  find -name hello -a -type -f
+  323  mkdir hello
+  324  mkdir 345
+  325  ls -f
+  326  ls -l
+  327  find . -name hello -a -type -f
+  328  find . -name hel -a -type -f
+  329  find . -name hel 
+  330  find . -name hello 
+  331  touth 234
+  332  touch 234
+  333  ls
+  334  touch 1234
+  335  ls -l
+  336  touch 1234
+  337  find -name hello.c -exec vim {}\;
+  338  find -name hello.c -exec vim {} \;
+  339  find -name hello -exec ls -l {} \;
+  340  ls -l |grep ^d
+  341  lsv-l
+  342  ls -l
+  343  tar hello hello hello1 hello.c 
+  344  tar cf hello h
+  345  tar hello.tar hello hello1 hello.c 
+  346  tar hello.tar hello 
+  347  find . -user ubuntu
+  348  ls -al
+  349  find . -user root
+  350  find . -name dir*
+  351  find . -name 123*
+  352  find . -name 123* -l
+  353  find . -name pth*
+  354  find . -name dir*
+  355  find ~ -name pth*
+  356  find . -name *.c
+  357  find . -name dir*
+  358  find  -name 123*
+  359  find . -name "123*"
+  360  find . -perm 666
+  361  ls -l
+  362  find . -perm 755
+  363  find ~ -perm 755
+  364  cd .
+  365  pwd
+  366  grep main *.c
+  367  find . -name *.c|xargs grep main
+  368  fromdos the_holy_bible.txt 
+  369  sudo apt install tofrodos
+  370  fromdos the_holy_bible.txt 
+  371  grep ^ test1
+  372  grep ^ hello
+  373  tar rf 123.tar hello
+  374  ls -l
+  375  tar rf 1234.tar aa a.txt
+  376  ls -l
+  377  tar czvf 3456.tar.gz hello hello.c 
+  378  ls -l
+  379  tar 3456.tar.gz
+  380  tar xvf 3456.tar.gz
+  381  ls -l
+  382  cp 3456.tar.gz 12345
+  383  cd 12345
+  384  ls -l
+  385  tar xvf 3456.tar.gz
+  386  ls -l
+  387  cd ~
+  388  cd 12345
+  389  ls -l
+  390  gzip -v hello
+  391  ls -l
+  392  gzip -dv 3456.tar.gz 
+  393  ls -l
+  394  gzip -dv hello.gz 
+  395  ls -l
+  396  pwd
+  397  ls -l
+  398  cd ~
+  399  ls -l
+  400  ping 192.168.211.128
+  401  ls -l
+  402  cd 12345
+  403  ls -l
+  404  gcc 咿呀咿呀哟！！.txt 
+  405  cat 咿呀咿呀哟！！.txt 
+  406  vim 咿呀咿呀哟！！.txt 
+  407  su 
+  408  find -name hello type --
+  409  find -name hello -type --
+  410  find -name 1234 -a -type d
+  411  find -name hello -a -type -
+  412  ls
+  413  ls -l
+  414  rm -r hi.txt 
+  415  ls -l
+  416  cat hello.c
+  417  ls -l
+  418  cd ~
+  419  cd ..
+  420  vim .vimrc
+  421  cd ~
+  422  vim .vimrc
+  423  ls -l
+  424  ls -al
+  425  su
+  426  gc
+  427  gcc
+  428  gcc 
+  429  ls -l
+  430  mkdir 20170120
+  431  cd 20170120
+  432  ls -l
+  433  vim main.c
+  434  cat main.c 
+  435  gcc main.c 
+  436  ./main
+  437  ls -l
+  438  ./a.out
+  439  vim main.c
+  440  gcc main.c 
+  441  ./a.out 
+  442  ls -l
+  443  mkdir include
+  444  vim fun.h
+  445  vim sum.c
+  446  vim main.c
+  447  vim sum.c
+  448  vim sum.c 
+  449  gcc -c main.c 
+  450  ls -l
+  451  vim main.o 
+  452  gcc -E main.c -o main.o
+  453  vim main.o
+  454  mkdir
+  455  mkdir test
+  456  cd test/
+  457  vim text.c
+  458  cat text.c 
+  459  gdb
+  460  who
+  461  gcc -E text.c -o text.i
+  462  ls -l
+  463  vim text.i
+  464  ls -l
+  465  cd ..
+  466  rm test
+  467  rm -r test
+  468  ls
+  469  mkdir test
+  470  cd test/
+  471  vim main.c
+  472  vim multi.c
+  473  history >20170118.txt
