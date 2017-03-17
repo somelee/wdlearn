@@ -17,7 +17,7 @@ MutexLock::MutexLock()
 
 MutexLock::~MutexLock()
 {
-	pthread_mutex_destory(&_mutex);
+	pthread_mutex_destroy(&_mutex);
 }
 
 void MutexLock::lock()
@@ -29,5 +29,10 @@ void MutexLock::lock()
 void MutexLock::unlock()
 {
 	pthread_mutex_unlock(&_mutex);
+}
+
+pthread_mutex_t * MutexLock::getMutexLockPtr()
+{
+	return &_mutex;
 }
 }
