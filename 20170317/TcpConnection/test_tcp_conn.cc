@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <iostream>
+using std::cout;
+using std::endl;
 
 int main(int argc,char const *argv[])
 {
@@ -30,10 +32,13 @@ int main(int argc,char const *argv[])
 
 	wd::TcpConnectionPtr conn(new wd::TcpConnection(peerfd));
 
+	cout << conn->toString() << endl;
 	while(1)
 	{
 		std::string msg(conn->receive());
-		std::cout << msg << std::endl;
+		if(msg.size() == 0)
+			conn->shutdown();
+		std::cout << msg << endl;
 		conn->send(msg);
 	}
 
