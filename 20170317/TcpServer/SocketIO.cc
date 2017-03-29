@@ -30,7 +30,7 @@ ssize_t SocketIO::readn(char *buf,size_t count)
 			break;
 
 		nleft -= nread;
-		buf += nread;
+		bufp += nread;
 	}
 	return (count - nleft);
 }
