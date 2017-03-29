@@ -13,6 +13,7 @@ using std::endl;
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <string.h>
 
 #define handle_error(msg) \
 		do { perror(msg); exit(EXIT_FAILURE); } while(0)
@@ -50,8 +51,9 @@ int main(int argc,char *argv[])
 			printf("Parent about to read\n");
 			sleep(2);
 
-			for(size_t idx = 0;idx < 3;++idx)
+			for(size_t idx = 0;idx < (argc - 1);++idx)
 			{
+				memset(&u,0,sizeof(u));
 				s = read(efd,&u,sizeof(uint64_t));
 
 				if(s != sizeof(uint64_t))
