@@ -19,6 +19,7 @@ using namespace log4cpp;
 class Mylog
 {
 public:
+	static Mylog * setLogPath(const char*);
 	static Mylog * getInstance();
 	static void destroy();
 
@@ -29,6 +30,7 @@ public:
 
 private:
 	Mylog();
+	Mylog(const char*);
 	~Mylog();
 private:
 	static Mylog * _pInstance;
@@ -46,6 +48,11 @@ inline string int2str(int num)
 	string(msg).append("[").append(__FILE__)\
 			   .append(":").append(__FUNCTION__)\
 			   .append(":").append(int2str(__LINE__)).append("]")
+
+inline void logPath(const char* msg)
+{
+	Mylog * plog = Mylog::setLogPath(msg);
+}
 
 inline void logWarn(const string & msg)
 {
@@ -71,6 +78,7 @@ inline void logDebug(const string & msg)
 	plog->debug(msg);
 }
 
+#define LogPath(msg) logPath(msg)
 #define LogWarn(msg) logWarn(postfix(msg))
 #define LogError(msg) logError(postfix(msg))
 #define LogInfo(msg) logInfo(postfix(msg))
